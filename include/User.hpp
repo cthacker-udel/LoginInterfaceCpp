@@ -49,7 +49,7 @@ class User {
          * @param username The username logging in
          * @param pass The password logging in
          */
-        User(std::string username, Password pass);
+        User(std::string, std::string);
 
         std::string getPassword();
 
